@@ -1,0 +1,14 @@
+/.gradle/
+/build/
+/dist/
+/sample-renders/
+android-project/.gradle/
+android-project/build/
+android-project/app/build/
+
+*.iml
+.idea/
+.vscode/
+
+*.log
+*.err

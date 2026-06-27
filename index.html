@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kirana Stock Bill | Receipt scanning, inventory and GST billing</title>
+  <meta name="description" content="Kirana Stock Bill helps small shops scan purchase bills, update stock, create GST sale bills, track parties, and export backups offline.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" aria-label="Primary navigation">
+    <a class="brand" href="#top" aria-label="Kirana Stock Bill home">
+      <span class="brand-mark">K</span>
+      <span>Kirana Stock Bill</span>
+    </a>
+    <nav>
+      <a href="#workflows">Workflows</a>
+      <a href="#features">Features</a>
+      <a href="#exports">Exports</a>
+      <a class="nav-action" href="downloads/KiranaStockBill-v1.4-storeworkflows-debug.apk">Download APK</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Android app for kirana stock, bills and GST</p>
+        <h1 id="hero-title">Kirana Stock Bill</h1>
+        <p class="hero-copy">Scan purchase receipts, review OCR item rows, update inventory, create customer bills, and share PDF or CSV records from one offline-first shop app.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="downloads/KiranaStockBill-v1.4-storeworkflows-debug.apk">Download v1.4 APK</a>
+          <a class="button secondary" href="#workflows">See what it does</a>
+        </div>
+      </div>
+      <div class="hero-panel" aria-label="Product summary">
+        <div>
+          <span class="metric">20</span>
+          <span>page scanner limit</span>
+        </div>
+        <div>
+          <span class="metric">PDF</span>
+          <span>sale bill sharing</span>
+        </div>
+        <div>
+          <span class="metric">CSV</span>
+          <span>inventory and sales export</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro band">
+      <div class="section-text">
+        <p class="eyebrow">Built around everyday shop work</p>
+        <h2>From supplier bill to customer receipt without switching tools.</h2>
+      </div>
+      <div class="summary-grid">
+        <article>
+          <span>01</span>
+          <h3>Scan or import</h3>
+          <p>Use the on-device document scanner for crop, cleanup, rotation and review, or import an image or PDF.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Review stock</h3>
+          <p>Confirm OCR rows, supplier, bill number, date, purchase rate, selling price, GST and units before saving.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Bill and report</h3>
+          <p>Create sale bills, reduce stock automatically, track GST totals, see recent bills and export backups.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="workflows" class="workflow">
+      <div class="section-text">
+        <p class="eyebrow">Core workflows</p>
+        <h2>Everything the app currently provides.</h2>
+      </div>
+      <div class="workflow-layout">
+        <div class="phone-shell" aria-label="Kirana Stock Bill app home preview">
+          <div class="phone-screen">
+            <div class="app-title">Kirana Stock Bill</div>
+            <p>Purchase receipts, stock, sales billing and GST totals in one place.</p>
+            <div class="app-stat">
+              <strong>Items: 24</strong>
+              <span>Stock sale value: Rs 38,420</span>
+              <span>Low stock: 3 · Purchases: 18 · Sales: 42</span>
+            </div>
+            <button>Scan / Import Purchase Bill</button>
+            <button>Record Sale & Create Bill</button>
+            <button class="light">Inventory</button>
+            <button class="light">Reports</button>
+            <button class="light">Bills & Parties</button>
+            <button class="light">Backup / Export</button>
+          </div>
+        </div>
+        <div class="workflow-list">
+          <article>
+            <h3>Purchase stock</h3>
+            <p>Scan receipts with Google ML Kit document scanning, import image/PDF files, run OCR page by page, and manually add missing rows when a bill is unclear.</p>
+          </article>
+          <article>
+            <h3>Inventory master</h3>
+            <p>Search items, edit stock, unit, purchase rate, sale price, GST, low-stock alert and supplier aliases that help match future bills.</p>
+          </article>
+          <article>
+            <h3>Sales billing</h3>
+            <p>Select stocked items, auto-fill sale rate and GST, apply discounts, block sales when stock is insufficient, then save or share a PDF bill.</p>
+          </article>
+          <article>
+            <h3>Reports and parties</h3>
+            <p>Review sales total, sales GST, purchase value, recent sales, bill history, supplier totals and customer totals.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features band">
+      <div class="section-text">
+        <p class="eyebrow">Feature details</p>
+        <h2>Practical controls for small-store accounting.</h2>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <h3>OCR with human review</h3>
+          <p>Detected rows are never saved blindly. The review screen keeps supplier, bill no, date, discount and every item editable.</p>
+        </article>
+        <article>
+          <h3>PDF and image intake</h3>
+          <p>Multi-page PDFs are rendered page by page for OCR, while image files can be shared into the app or chosen from storage.</p>
+        </article>
+        <article>
+          <h3>Stock protection</h3>
+          <p>Sales reduce stock immediately and stop when quantity is higher than available inventory.</p>
+        </article>
+        <article>
+          <h3>GST line math</h3>
+          <p>Purchase and sale rows store GST percent, sale bills calculate tax, subtotal, discount and final total.</p>
+        </article>
+        <article>
+          <h3>Bill histories</h3>
+          <p>Sales bills can be reopened and shared, purchase bills keep supplier, bill number, row count and value.</p>
+        </article>
+        <article>
+          <h3>Local data</h3>
+          <p>Items, purchases and sales are stored locally in app preferences with JSON backup for moving or protecting shop records.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="scan-proof">
+      <div class="section-text">
+        <p class="eyebrow">Real scan examples</p>
+        <h2>Designed for the kind of supplier bills kirana shops actually receive.</h2>
+      </div>
+      <div class="scan-gallery">
+        <figure>
+          <img src="assets/sample-renders/Scanned_20260611-1226.png" alt="Scanned kirana estimate with item, GST and party total columns">
+          <figcaption>Supplier estimate with GST and item rows.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/sample-renders/Scanned_20260611-1231.png" alt="Scanned purchase bill page prepared for OCR">
+          <figcaption>Cleaned scan ready for OCR review.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="exports" class="exports band">
+      <div class="section-text">
+        <p class="eyebrow">Backup and sharing</p>
+        <h2>Keep records portable.</h2>
+        <p>The app can share a full JSON backup with item master, aliases, stock, purchases and sales. It can also share inventory CSV and sales CSV for spreadsheet use.</p>
+      </div>
+      <div class="export-table" role="table" aria-label="Export options">
+        <div role="row">
+          <strong role="cell">Full JSON backup</strong>
+          <span role="cell">Items, aliases, stock, purchases, sales and creation time.</span>
+        </div>
+        <div role="row">
+          <strong role="cell">Inventory CSV</strong>
+          <span role="cell">Name, unit, stock, low stock, purchase rate, sale price, GST and aliases.</span>
+        </div>
+        <div role="row">
+          <strong role="cell">Sales CSV</strong>
+          <span role="cell">Date, bill id, customer, mobile, subtotal, GST, discount and total.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="download">
+      <div>
+        <p class="eyebrow">Current build</p>
+        <h2>Install Kirana Stock Bill v1.4</h2>
+        <p>Version 1.4 is the latest APK present in this workspace, labeled store workflows debug.</p>
+      </div>
+      <a class="button primary" href="downloads/KiranaStockBill-v1.4-storeworkflows-debug.apk">Download APK</a>
+    </section>
+  </main>
+
+  <footer>
+    <span>Kirana Stock Bill</span>
+    <span>Offline Android workflows for purchase stock, sales bills, GST reports and exports.</span>
+  </footer>
+</body>
+</html>

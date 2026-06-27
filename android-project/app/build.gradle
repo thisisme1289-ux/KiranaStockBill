@@ -1,0 +1,22 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace = "com.kirana.stockbill"
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId = "com.kirana.stockbill"
+        minSdk = 23
+        targetSdk = 36
+        versionCode = 5
+        versionName = "1.4"
+    }
+}
+
+dependencies {
+    implementation "androidx.core:core:1.17.0"
+    implementation "com.google.android.gms:play-services-mlkit-document-scanner:16.0.0"
+    implementation "com.google.android.gms:play-services-mlkit-text-recognition:19.0.1"
+}
